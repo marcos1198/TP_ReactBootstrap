@@ -8,6 +8,7 @@ function Counter() {
     <p>Contador: {count}</p>
     <button onClick={() => setCount(count => count + 1)}>Aumentar</button>
     </>
-  )
+  );
 
-}
+};
+export default Counter;
